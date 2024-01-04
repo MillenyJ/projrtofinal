@@ -1,0 +1,234 @@
+footer{
+    background-color:#EF6400;
+}
+
+header{
+    background-color: #F5F5F5;
+    box-shadow: 0px 4px 0px #EF6400;     
+}
+    
+#logo{
+    max-width: 50%;
+    height: 60px;
+}
+
+#simbulo{
+    color: #9747FF;
+    max-width: 30px;
+    min-width: 10px;
+    padding: 5px;
+    
+}
+#simbulomenu{
+    color: #9747FF;
+}
+
+
+.nav-item{
+    justify-self: unset;
+}
+       
+    
+#btn-menu{
+    max-width: 50px;
+    min-width: 30px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#botoes {
+    background-color: black;
+    display:block;
+}
+
+#basemenu{
+    background-color: black;
+    color: #F5F5F5;
+}
+
+#albums{
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    min-width: 50px;
+}
+#posigrid{
+    justify-content: center;
+}
+.container{
+    align-items: center;
+}
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #EF6400;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#footer_content {
+    background-color:  #ef6400;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem, 3.5rem;
+}
+#confere{
+    max-width: 200px;
+    min-width: 30px;
+    width: 100%;
+}
+#footer_socialmedia{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-top: 20px;
+}
+#footer_socialmedia .footer-link{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #EF6400;
+    margin-bottom: 20px;
+
+}
+#fundoini{
+    display: flex;
+}
+#footer_copyright{
+    margin-top: 75px;
+    left: 50px;
+}
+
+#footer_subscribe{
+    margin-top: 10px;
+}
+
+#fundoini{
+    padding-top: 5px;
+    max-width: 1900px;
+    min-width: 300px;
+    width: 100%;
+
+}
+
+.legenda{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    font-size: calc(50%+10%);
+    left: 60%;
+    top: 30%;
+}
+
+ul{
+    list-style: none;
+}
+.dragrace{
+    height: 500px;
+    width: 500px;
+}
+.bg-cinza{
+    background-color: #E8D6FF;
+}
+.bg-laranja{
+    background-color: #EF6400;
+    min-width: 1400px;
+    margin-left: -50px;
+    margin-bottom: -50px;
+}
+#finalform{
+    justify-content: center;
+    margin-left: 30%; 
+    margin-right: 30%; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#player{
+    min-width: 100px;
+    max-width: 355px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    justify-content: space-evenly
+    
+}
+#fundomusic{
+    min-width: 100px;
+    max-width:250px;
+    width: 100%;
+    border-radius: 0%;
+    box-shadow: #9747FF 0px 1px 10px;
+    padding: auto;
+
+
+}
+.row1{
+    padding-right: 20px;
+}
+#albumplay{
+    width: 100%;
+    max-width: 500px;
+    min-width: 50px;
+    box-shadow: #9747FF 0px 1px 10px;
+    padding: auto;
+}
+.container2{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding-top: 10px; 
+
+    
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .legenda{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: absolute;
+        font-size: 60%;
+        left: 60%;
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .legenda{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: absolute;
+        font-size: 45%;
+        left: 60%;
+        top: 20%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .legenda{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        position: absolute;
+        font-size: 30%;
+        left: 60%;
+        top: 15%;
+    }
+}
